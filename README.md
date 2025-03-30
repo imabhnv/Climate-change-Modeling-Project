@@ -12,23 +12,6 @@ This project focuses on **predicting climate change trends** by analyzing climat
 
 ---
 
-## 🏗️ Project Structure  
-
-```
-📂 Climate_Change_Modeling
-│── 📁 data                 # Dataset files (CSV, preprocessed data)
-│── 📁 models               # Saved trained models
-│── 📁 notebooks            # Jupyter notebooks for analysis
-│── 📁 reports              # Generated documentation & insights
-│── 📁 streamlit_app        # Streamlit UI for user interaction
-│── train_model.py          # Model training script
-│── predict.py              # Prediction script
-│── requirements.txt        # Dependencies
-│── README.md               # Project documentation
-```
-
----
-
 ## 🛠️ Installation Guide  
 
 🔹 **Step 1: Clone the Repository**  
@@ -46,17 +29,6 @@ pip install -r requirements.txt
 ```sh
 jupyter notebook
 ```
-
-🔹 **Step 4: Train the Model**  
-```sh
-python train_model.py
-```
-
-🔹 **Step 5: Run the Streamlit App**  
-```sh
-streamlit run streamlit_app/app.py
-```
-
 ---
 
 ## 🧩 Data Processing & Feature Engineering  
@@ -103,20 +75,6 @@ streamlit run streamlit_app/app.py
 
 **Impact Visualization:**  
 📊 The model shows a drastic increase in engagement under high CO₂ levels.  
-
----
-
-## 🚀 Deployment & Streamlit UI  
-
-The **Streamlit App** allows users to:  
-✅ Input new climate data  
-✅ Predict discussion trends  
-✅ Select different CO₂ scenarios  
-✅ View **real-time plots**  
-
-```sh
-streamlit run streamlit_app/app.py
-```
 
 ---
 
