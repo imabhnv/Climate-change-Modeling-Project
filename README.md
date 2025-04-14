@@ -8,7 +8,6 @@ This project focuses on **predicting climate change trends** by analyzing climat
 ✔️ Implement feature engineering and preprocessing  
 ✔️ Train machine learning models for prediction  
 ✔️ Simulate different CO₂ emission scenarios  
-✔️ Deploy a user-friendly **Streamlit-based web app**  
 
 ---
 
